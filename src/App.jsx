@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar"
+import Home from "./page/PageHome"
 
 const App = () =>{
     return(
         <div>
-            <span>AppJs</span>
+            <Navbar/>
+            <Home/>
         </div>
     )
 }
