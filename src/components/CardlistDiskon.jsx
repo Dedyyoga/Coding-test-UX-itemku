@@ -1,26 +1,26 @@
-
+import Img2 from "../logo/1161240.jpg"
 const CardList = () => {
   return (
     <div className="mt-5">
-      <div className=" pl-7 h-full w-full flex justify-evenly">
+      <div className="h-full w-full flex justify-evenly">
         <div className="bg-white h-auto w-52 filter drop-shadow-md overflow-hidden rounded-lg">
           <div className="">
             <img
               className="object-cover h-20 w-full"
-              src="https://images3.alphacoders.com/118/thumb-1920-1189818.png"
+              src={Img2}
               alt=""
               srcset=""
             />
           </div>
           <div className="flex flex-col px-3 h-5/6 mt-3">
             <div className="h-5">
-              <span className="font-bold h-5">jual waifu</span>
+              <span className="font-bold h-5">600 UC</span>
             </div>
             <div>
-              <span className="text-sm font-semibold text-gray">Horny</span>
+              <span className="text-sm font-semibold text-gray">Pubg Mobile</span>
             </div>
             <div className="mt-2">
-              <div className=" w-20 h-5 border-red-400 border flex justify-center rounded-md pb-3">
+              <div className=" w-20 h-5 border-yellow-600 border flex justify-center rounded-md pb-3">
                 <span className="text-red text-sm font-semibold">
                   Stok 500
                 </span>

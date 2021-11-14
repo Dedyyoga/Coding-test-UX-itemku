@@ -1,13 +1,13 @@
-
+import Img from "../logo/990983.jpg"
 const CardList = () => {
   return (
     <div className="mt-5">
-      <div className=" pl-7 h-full w-full flex justify-evenly">
+      <div className=" h-full w-full flex justify-evenly">
         <div className="bg-white h-auto w-52 filter drop-shadow-md overflow-hidden rounded-lg">
           <div className="">
             <img
               className="object-cover h-20 w-full"
-              src="https://images4.alphacoders.com/990/thumbbig-990983.webp"
+              src={Img}
               alt=""
               srcset=""
             />
