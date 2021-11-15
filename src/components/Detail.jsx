@@ -14,8 +14,8 @@ const Detail = () => {
   const [imgs, setImgs] = useState(false);
   const [desk, setDesk] = useState(false);
   const [bottom, setBottom] = useState(false);
-  console.log(bottom)
-  console.log(desk)
+  console.log(bottom);
+  console.log(desk);
   return (
     <div>
       <div>
@@ -32,12 +32,16 @@ const Detail = () => {
             <div className="flex justify-end w-full pr-6">
               <div className="pt-4">
                 <div className="w-9 h-9 bg-gray-800 rounded-md bg-opacity-25 flex items-center justify-center">
-                  <img className="w-7  object-cover" src={share} alt="" />
+                  <button>
+                    <img className="w-7  object-cover" src={share} alt="" />
+                  </button>
                 </div>
               </div>
               <div className="pl-4 pt-4">
                 <div className="w-9 h-9 bg-gray-800 rounded-md bg-opacity-25 flex items-center justify-center">
-                  <img className="w-7  object-cover" src={cart} alt="" />
+                  <button>
+                    <img className="w-7  object-cover" src={cart} alt="" />
+                  </button>
                 </div>
               </div>
             </div>
@@ -164,7 +168,9 @@ const Detail = () => {
               {bottom === false ? (
                 <span className="font-bold text-white">Tambahkan ke Troli</span>
               ) : (
-                <span className="font-bold text-white">Keluarkan dari Troli</span>
+                <span className="font-bold text-white">
+                  Keluarkan dari Troli
+                </span>
               )}
             </button>
           </div>
