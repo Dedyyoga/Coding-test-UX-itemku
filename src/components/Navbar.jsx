@@ -5,7 +5,7 @@ const Navbar = () => {
       <div className="h-auto flex justify-between flex-col">
         <div className="w-64 flex justify-start">
           <div className="relative right-5">
-            <img className=" object-cover" src={Img4} alt="" srcset="" />
+            <img className=" object-cover" src={Img4} alt=""/>
           </div>
         </div>
         <div className="bg-gray-200 h-px"></div>

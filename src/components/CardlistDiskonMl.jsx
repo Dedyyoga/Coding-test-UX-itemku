@@ -1,4 +1,4 @@
-import Img2 from "../logo/1161240.jpg"
+import Img3 from "../logo/ml.png"
 const CardList = () => {
   return (
     <div className="mt-5">
@@ -7,17 +7,17 @@ const CardList = () => {
           <div className="">
             <img
               className="object-cover h-20 w-full"
-              src={Img2}
+              src={Img3}
               alt=""
             />
           </div>
           <div className="flex flex-col px-3 h-5/6 mt-3">
             <div className="h-5">
-              <span className="font-bold h-5">600 UC</span>
+              <span className="font-bold h-5">366 Diamonds</span>
             </div>
-            <div>
-              <span className="text-sm font-semibold text-gray">Pubg Mobile</span>
-            </div>
+            {/* <div>
+              <span className="text-sm font-semibold text-gray">Mobile Mobile</span>
+            </div> */}
             <div className="mt-2">
               <div className=" w-20 h-5 border-yellow-600 border flex justify-center rounded-md pb-3">
                 <span className="text-red text-sm font-semibold">

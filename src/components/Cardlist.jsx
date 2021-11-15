@@ -9,7 +9,6 @@ const CardList = () => {
               className="object-cover h-20 w-full"
               src={Img}
               alt=""
-              srcset=""
             />
           </div>
           <div className="flex flex-col px-3 h-5/6 mt-3">

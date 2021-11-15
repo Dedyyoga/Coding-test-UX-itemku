@@ -11,3 +11,20 @@ html{
     width: 0px;
     height: 16px;
   }
+
+.costumDiv{
+    /* untuk img full */
+    background-image: url("../logo/990983.jpg"); 
+    /* untuk img kecil */
+    /* background-image: url("../logo/ml.png"); */
+    background-size:cover ;
+    background-position: center;
+}
+
+.whiteImg {
+    filter: grayscale(100%);
+}
+
+.color{
+    background-color: #ff5300;
+}
